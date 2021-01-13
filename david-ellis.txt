@@ -1,0 +1,134 @@
+ 1. What is Semantic HTML? 
+ markup that is used to help humans understand the meaning of the code
+
+ 2. What is HTML used for? 
+    Create web pages
+
+ 3. What is an attribute and where do we put it?
+    HTML attributes provide additional information about HTML elements.
+
+ 4. What is the h1 tag used for? How many times should I use it on a page?
+    The h1 tag is for the main title of the page, it should be used only once
+
+    5. Name two tags that have required attributes
+    href src
+
+    6. What do we put in the head of our HTML document? 
+    <!DOCTYPE html>
+    <html>
+    <body>
+
+    7. What is an id? 
+    The HTML id attribute is used to specify a unique id for an HTML element.
+
+    8. What elements can I add an id to?
+    Any
+    
+    9. How many times can I use the same id on a page? 
+    Only one
+
+
+    10. What is a class? 
+    he HTML class attribute is used to specify a class for an HTML element.
+    
+    11. What elements can I add a class to? 
+    Any
+    
+    12. How many times can I use the same class on a page? 
+    As many as you want
+
+    13. How do I get my link to open in a new tab?
+    use target:_blank
+
+    14. What is the alt attribute in the image tag used for?
+    So google can identify what the images on your page are 
+    
+    15. How do I reference an id?
+    Use # nameofID
+
+    16. What is the difference between a section and a div
+    Both define a section of code but the div also is a container for elements
+    
+    17. What is CSS used for? 
+    CSS is used to style the page and control how elements are displayed
+    
+    18. How to we select an element? Example - every h2 on the page
+    h2{}
+    
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    An id is used to point to a specific declaration in a style sheet, the id attribute must be unique, something like h1.
+    A class identifies a group of elements. Multiple elements can share the same class name. Ex. class="body"
+
+    20. How do we select classes in CSS?
+    .class{}
+
+    21. How do we select a p element with a single class of “human””?
+    .human p{}
+    
+    22. What is a parent child selector? When would this be useful? 
+    A parent child selector lets you select a group of elements in a category. This lets you asign things like color to everything at once
+
+    23. How do you select all links within a div with the class of sidebar?
+    .sidebar href{}
+
+    24. What is a pseudo selector?
+    A pseudo selector defines a special state of an element such as mousing over
+    
+    25. What do we use the change the spacing between lines?
+    line-height
+    
+    26. What do we use to change the spacing between letters?
+    letter-spacing
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform: uppercase
+    text-transform: lowercase
+    text-transform: capitalize
+    
+    28. How do I add a 1px border around my div that is dotted and black?
+    <div border: 1px dotted black>
+    
+    29. How do I select everything on the page?
+    <body> 
+    
+    30. How do I write a comment in CSS?
+    /* */
+
+    31. How do I find out what file I am in, when I am using the command line? 
+    pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm , they don't confirm before it is removed
+
+    34. Why should I use version control? 
+    To backup changes and to see what has changed
+
+    35. How often should I commit to github?
+    Anytime you make and important changes
+    
+    36. What is the command we would use to push our repo up to github? 
+    git push
+    
+    37. Walk me through Lambda's git flow. 
+    -Create your own repo through forking
+    -Clone the repo
+    -Change into the directory
+    -create a new branch
+    - do your work
+    - add the changes
+    -commit changes
+    -push it up to github
+    -submit pull request
+
+
+    Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
